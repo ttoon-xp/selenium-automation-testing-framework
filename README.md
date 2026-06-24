@@ -23,3 +23,23 @@ Automation Testing Project using Selenium WebDriver and Pytest.
 
 
 ## Project Structure
+
+selenium-testing
+
+├── pages
+│ ├── login_page.py
+│ ├── product_page.py
+│ ├── cart_page.py
+│ └── register_page.py
+│
+├── tests
+│ ├── test_login.py
+│ ├── test_product.py
+│ ├── test_cart.py
+│ ├── test_register.py
+│ └── test_remove_cart.py
+│
+├── conftest.py
+├── test_data.py
+├── requirements.txt
+└── report.html
