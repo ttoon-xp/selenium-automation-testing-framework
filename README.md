@@ -45,3 +45,14 @@ selenium-testing
 ├── requirements.txt
 └── report.html
 ```
+
+## Installation
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+
+Run Test
+
+Run all tests: pytest
