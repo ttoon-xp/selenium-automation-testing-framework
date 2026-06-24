@@ -71,3 +71,4 @@ pytest --html=report.html
 ## Test Report
 
 5 tests passed successfully ✅
+![Pytest HTML Report](report.png)
