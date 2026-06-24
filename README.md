@@ -52,7 +52,22 @@ Install dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
 
-Run Test
+## Run Test
 
-Run all tests: pytest
+Run all tests:
+
+```bash
+pytest
+```
+
+Generate HTML Report:
+
+```bash
+pytest --html=report.html
+```
+
+## Test Report
+
+5 tests passed successfully ✅
