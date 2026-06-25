@@ -13,13 +13,15 @@ Automation Testing Project using Selenium WebDriver and Pytest.
 
 ## Test Cases
 
-| Test Case | Description | Result |
-|---|---|---|
-| Login Test | Login with valid credentials | Passed |
-| Register Test | Register new user | Passed |
-| Search Product Test | Search product by keyword | Passed |
-| Add Cart Test | Add product to cart | Passed |
-| Remove Cart Test | Remove product from cart | Passed |
+## Test Cases
+
+| Test Case | Description |
+|---|---|
+| Login Test | Verify user can login successfully with valid email and password credentials |
+| Register Test | Verify new user can create an account by filling registration information and completing account creation process |
+| Search Product Test | Verify user can search products using keyword and system displays related product results correctly |
+| Add Cart Test | Verify user can add a product to shopping cart and product information is displayed correctly in the cart |
+| Remove Cart Test | Verify user can remove a product from shopping cart and cart status is updated to empty successfully |
 
 
 ## Project Structure
