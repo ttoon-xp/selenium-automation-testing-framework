@@ -85,14 +85,16 @@ class CartPage:
         button.click()
 
 
-
-    def verify_product_added(self):
+    def verify_cart_empty(self):
 
         WebDriverWait(
             self.driver,
             10
         ).until(
             EC.visibility_of_element_located(
-                self.added_message
+                self.empty_cart_text
             )
         )
+
+        assert "Cart is empty" in self.driver.page_source
+    
