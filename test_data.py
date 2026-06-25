@@ -2,7 +2,7 @@ REGISTER_DATA = {
 
     "name": "Test-Automation",
 
-    "email": "testauto65432@gmail.com",
+    "email": "testauto65435@gmail.com",
 
     "password": "123456",
 

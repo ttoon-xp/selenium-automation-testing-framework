@@ -69,6 +69,18 @@ class CartPage:
             button
         )
 
+    def verify_product_added(self):
+
+        WebDriverWait(
+            self.driver,
+            10
+        ).until(
+            EC.visibility_of_element_located(
+                self.added_message
+            )
+        )
+
+        assert "Added!" in self.driver.page_source
 
 
     def remove_product(self):
